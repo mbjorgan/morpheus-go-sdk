@@ -7,7 +7,7 @@ var (
 	ApplianceSettingsPath = "/api/appliance-settings"
 )
 
-// ApplianceSettings structures for use in request and response payloads
+// ApplianceSettings structures for usein request and response payloads
 type ApplianceSettings struct {
 	ApplianceURL              string `json:"applianceUrl"`
 	InternalApplianceURL      string `json:"internalApplianceUrl"`
