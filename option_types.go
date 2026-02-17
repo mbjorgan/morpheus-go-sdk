@@ -31,6 +31,7 @@ type OptionType struct {
 	HelpBlock             string `json:"helpBlock"`
 	Editable              bool   `json:"editable"`
 	Creatable             bool   `json:"creatable"`
+	NoBlank               bool   `json:"noBlank"`
 	DependsOnCode         string `json:"dependsOnCode"`
 	VerifyPattern         string `json:"verifyPattern"`
 	VisibleOnCode         string `json:"visibleOnCode"`
